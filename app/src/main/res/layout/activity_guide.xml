@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/layout"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00BCD4">
+
+            <ImageView
+                android:layout_width="413dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/seco" />
+
+            <ImageView
+                android:layout_width="413dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/seag" />
+
+            <ImageView
+                android:layout_width="413dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/tbuil" />
+
+            <ImageView
+                android:layout_width="413dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/iceg" />
+
+            <ImageView
+                android:layout_width="413dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/flog" />
+
+            <ImageView
+                android:layout_width="413dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/fedg" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

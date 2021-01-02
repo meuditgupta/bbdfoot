@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gbt"
+    tools:context=".hact">
+
+    <Button
+        android:id="@+id/buttonf6"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/butf"
+        android:text="Floor6"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonf5"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="176dp"
+        android:background="@drawable/butf"
+        android:text="Floor5"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonf4"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="252dp"
+        android:background="@drawable/butf"
+        android:text="Floor 4"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonbac"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:background="@drawable/bwood"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <Button
+        android:id="@+id/buttong"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/butf"
+        android:text="G Floor"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonf1"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="148dp"
+        android:background="@drawable/butf"
+        android:text="Floor 1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonf2"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="224dp"
+        android:background="@drawable/butf"
+        android:text="Floor 2"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonf3"
+        style="@android:style/Widget.Button.Inset"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="296dp"
+        android:background="@drawable/butf"
+        android:text="Floor 3"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

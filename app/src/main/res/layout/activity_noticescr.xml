@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notdc"
+    tools:context=".noticescr">
+
+    <Button
+        android:id="@+id/buttonrs"
+        android:layout_width="65dp"
+        android:layout_height="57dp"
+        android:background="@drawable/refres"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/textViewn1"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:lines="10"
+        android:scrollHorizontally="true"
+        android:text=" "
+        android:textColor="#332121"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <TextView
+        android:id="@+id/textViewn2"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:lines="10"
+        android:textColor="#4E3434"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <TextView
+        android:id="@+id/textViewn3"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:lines="10"
+        android:textColor="#473030"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.708" />
+
+    <TextView
+        android:id="@+id/textViewn4"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
+        android:inputType="textMultiLine|textImeMultiLine"
+        android:lines="10"
+        android:textColor="#513737"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.944" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
